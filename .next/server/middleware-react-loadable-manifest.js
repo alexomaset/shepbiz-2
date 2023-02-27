@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST={"portfolio-full-width.js -> ../src/components/PortfolioFullWidthIsotope":{id:6194,files:["static/chunks/391.6f5198c99b761316.js","static/chunks/194.8cb2abf66fc0dacf.js"]},"portfolio-grid.js -> ../src/components/PortfolioGridIsotope":{id:9205,files:["static/chunks/391.6f5198c99b761316.js","static/chunks/205.8db05b1b16caf739.js"]}};
