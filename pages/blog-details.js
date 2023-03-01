@@ -34,7 +34,7 @@ const BlogDetails = () => {
                           <li>
                             <span>
                               <i className="far fa-calendar-alt" />
-                              <a href="#">21 November 2022</a>
+                              <a href="#">28 February 2022</a>
                             </span>
                           </li>
                           <li>
@@ -83,20 +83,20 @@ const BlogDetails = () => {
                       to visit our website and learn more about our projects and
                       how you can get involved.
                     </p>
-                    <blockquote>
+                    {/* <blockquote>
                       <h4>
                         Smashing Podcast Episode Pauloag Conve Seen Optimization
                         Inspired Decisions
                       </h4>
                       <h5>Rasalina Willamson</h5>
-                    </blockquote>
-                    <p>
+                    </blockquote> */}
+                    {/* <p>
                       Ut enim ad minima veniam, quis nostrum exercitationem
                       ullam corporis suscipit labrio sam, nisi ut aliquid ex ea
                       commodi consequatur Quis autem vel eum iure reprehenderit
                       qui in ea voluptate velit esse quam nihil molestiae
-                    </p>
-                    <div className="post-share-tag mb-40">
+                    </p> */}
+                    {/* <div className="post-share-tag mb-40">
                       <div className="row">
                         <div className="col-12">
                           <div className="post-tag-cloud">
@@ -309,7 +309,7 @@ const BlogDetails = () => {
                           </div>
                         </li>
                       </ul>
-                    </div>
+                    </div> */}
                     <div
                       className="comments-respond mb-35"
                       id="comment-respond"
@@ -407,7 +407,7 @@ const BlogDetails = () => {
                     </div>
                   </form>
                 </div>
-                <div className="widget author-widget mb-40 wow fadeInUp">
+                {/* <div className="widget author-widget mb-40 wow fadeInUp">
                   <div className="author-content">
                     <img
                       src="assets/images/widget/uuser-1.jpg"
@@ -442,13 +442,13 @@ const BlogDetails = () => {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
                 <div className="widget category-widget mb-40 wow fadeInUp">
                   <h4 className="widget-title">Category</h4>
                   <ul className="category-nav">
                     <li>
                       <a href="#">
-                        Organic Vegetables
+                        Value Chains
                         <span>
                           <i className="far fa-arrow-right" />
                         </span>
@@ -456,7 +456,7 @@ const BlogDetails = () => {
                     </li>
                     <li>
                       <a href="#">
-                        Fresh Jack Fruits
+                       Ongoing projects
                         <span>
                           <i className="far fa-arrow-right" />
                         </span>
@@ -464,55 +464,13 @@ const BlogDetails = () => {
                     </li>
                     <li>
                       <a href="#">
-                        Chicken Meat &amp; Eggs
-                        <span>
-                          <i className="far fa-arrow-right" />
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Organic Wheats
-                        <span>
-                          <i className="far fa-arrow-right" />
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        Cow Meat &amp; Milk
+                        Field &amp; Events
                         <span>
                           <i className="far fa-arrow-right" />
                         </span>
                       </a>
                     </li>
                   </ul>
-                </div>
-                <div
-                  className="widget contact-info-widget bg_cover mb-40 wow fadeInUp"
-                  style={{
-                    backgroundImage: "url(assets/images/widget/contact-1.jpg)",
-                  }}
-                >
-                  <div className="contact-info-box text-center">
-                    <div className="icon">
-                      <i className="far fa-phone" />
-                    </div>
-                    <div className="info">
-                      <h4>
-                        <a href="tel:+01234567899">+0123 (456) 7899</a>
-                      </h4>
-                      <h5>
-                        <a href="mailto:support@gmail.com">support@gmail.com</a>
-                      </h5>
-                      <a
-                        href="#"
-                        className="main-btn bordered-btn bordered-black"
-                      >
-                        Contact us
-                      </a>
-                    </div>
-                  </div>
                 </div>
                 <div className="widget recent-post-widget mb-40 wow fadeInUp">
                   <h4 className="widget-title">Recent News</h4>
@@ -569,12 +527,11 @@ const BlogDetails = () => {
                 </div>
                 <div className="widget tag-cloud-widget wow fadeInUp mb-40">
                   <h4 className="widget-title">Popular Tags</h4>
-                  <a href="#">Milk &amp; Meat</a>
-                  <a href="#">Fruits</a>
-                  <a href="#">Vegetable</a>
-                  <a href="#">Coffee</a>
-                  <a href="#">Pizza Pasta</a>
-                  <a href="#">Organic</a>
+                  <a href="#">Macadamia</a>
+                  <a href="#">Cashew</a>
+                  <a href="#">Avocado</a>
+                  <a href="#">Milled Rice</a>
+                  <a href="#">Groundnuts</a>
                 </div>
               </div>
             </div>
