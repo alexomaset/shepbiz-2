@@ -483,15 +483,15 @@ const BlogDetails = () => {
                       <div className="post-title-date">
                         <h6>
                           <Link href="/blog-details">
-                            <a>Guide Modern CSS Colors HWB, LAB</a>
+                            <a>Website Launch for Shepbiz</a>
                           </Link>
                         </h6>
                         <span className="posted-on">
-                          By <a href="#">Somalia D. Silba</a>
+                          By <a href="#">Alex Omaset</a>
                         </span>
                       </div>
                     </li>
-                    <li className="post-thumbnail-content">
+                    {/* <li className="post-thumbnail-content">
                       <img
                         src="assets/images/widget/news-2.jpg"
                         alt="post image"
@@ -522,7 +522,7 @@ const BlogDetails = () => {
                           By <a href="#">Somalia D. Silba</a>
                         </span>
                       </div>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 <div className="widget tag-cloud-widget wow fadeInUp mb-40">
