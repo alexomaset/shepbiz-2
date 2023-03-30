@@ -152,20 +152,6 @@ const FooterMenu = () => (
               <Link href="portfolio-kilifi">Cashew Nuts Chain</Link>
             </li>
           </ul>
-          <ul>
-            <li>
-              <Link href="portfolio-details">Latest News</Link>
-            </li>
-            <li>
-              <a href="#">Meet The Team</a>
-            </li>
-            <li>
-              <a href="#">Setting &amp; Privacy</a>
-            </li>
-            <li>
-              <a href="#">My Account</a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -187,7 +173,7 @@ const FooterMenu = () => (
               +254712504095 <br /> +254737293867
             </p>
             <p>
-              <a href="mailto:www.info.net">www.shepbiz.net</a>
+              <a href="mailto:www.info.net">www.shepbiz-agribiz.com</a>
             </p>
           </div>
         </div>
