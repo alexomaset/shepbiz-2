@@ -15,11 +15,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,10 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/portfolio-nakuru": [
+    "/portfolio-busia": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/portfolio-nakuru.js"
+      "static/chunks/pages/portfolio-busia.js"
+    ],
+    "/portfolio-hb": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/portfolio-hb.js"
+    ],
+    "/portfolio-kilifi": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/portfolio-kilifi.js"
     ]
   },
   "ampFirstPages": []

@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/portfolio-nakuru": "pages/portfolio-nakuru.js",
-  "/": "pages/index.js"
+  "/portfolio-hb": "pages/portfolio-hb.js",
+  "/portfolio-busia": "pages/portfolio-busia.js",
+  "/portfolio-kilifi": "pages/portfolio-kilifi.js"
 }

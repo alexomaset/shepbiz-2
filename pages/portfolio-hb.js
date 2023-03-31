@@ -167,95 +167,7 @@ const PortfolioHb = () => {
         
           </div>
       {/*====== End service-details-section Section ======*/}
-      <section className="service-section light-gray-bg pt-130 pb-130">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-10">
-              <div className="section-title text-center mb-50">
-                <h2>Action Plan</h2>
-              </div>
-            </div>
-          </div>
-          <Slider {...serviceSliderOne} className="service-slider-one">
-            <div className="single-service-item-two text-center wow fadeInUp">
-              <div className="img-holder">
-                <img src="assets/images/portfolio/img-4.jpg" alt="" />
-              </div>
-              <div className="text">
-                <h3 className="title">
-                  <Link href="/service-details">
-                    <a>Organic Foods</a>
-                  </Link>
-                </h3>
-                <p>
-                  Sit amet consectetur adipisc elit sed eiusmod tempor incdunt
-                  labore et dolore magna
-                </p>
-                <Link href="/service-details">
-                  <a className="main-btn btn-yellow">Read More</a>
-                </Link>
-              </div>
-            </div>
-            <div className="single-service-item-two text-center wow fadeInDown">
-              <div className="img-holder">
-                <img src="assets/images/portfolio/img-4.jpg" alt="" />
-              </div>
-              <div className="text">
-                <h3 className="title">
-                  <Link href="/service-details">
-                    <a>Fresh Fruits</a>
-                  </Link>
-                </h3>
-                <p>
-                  Sit amet consectetur adipisc elit sed eiusmod tempor incdunt
-                  labore et dolore magna
-                </p>
-                <Link href="/service-details">
-                  <a className="main-btn btn-yellow">Read More</a>
-                </Link>
-              </div>
-            </div>
-            <div className="single-service-item-two text-center wow fadeInUp">
-              <div className="img-holder">
-                <img src="assets/images/service/img-4.jpg" alt="" />
-              </div>
-              <div className="text">
-                <h3 className="title">
-                  <Link href="/service-details">
-                    <a>Organic Fruits</a>
-                  </Link>
-                </h3>
-                <p>
-                  Sit amet consectetur adipisc elit sed eiusmod tempor incdunt
-                  labore et dolore magna
-                </p>
-                <Link href="/service-details">
-                  <a className="main-btn btn-yellow">Read More</a>
-                </Link>
-              </div>
-            </div>
-            <div className="single-service-item-two text-center wow fadeInDown">
-              <div className="img-holder">
-                <img src="assets/images/portfolio/img-4.jpg" alt="" />
-              </div>
-              <div className="text">
-                <h3 className="title">
-                  <Link href="/service-details">
-                    <a>Processed Nuts</a>
-                  </Link>
-                </h3>
-                <p>
-                  Sit amet consectetur adipisc elit sed eiusmod tempor incdunt
-                  labore et dolore magna
-                </p>
-                <Link href="/service-details">
-                  <a className="main-btn btn-yellow">Read More</a>
-                </Link>
-              </div>
-            </div>
-          </Slider>
-        </div>
-      </section>{" "}
+     
       <section className="blog-section pt-90 pb-130 p-r z-1">
         <div className="container">
           <div className="row justify-content-center">
@@ -270,15 +182,15 @@ const PortfolioHb = () => {
             <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
               <div className="blog-post-item-two mb-40 wow fadeInDown">
                 <div className="post-thumbnail">
-                  <img src="assets/images/blog/img-4.jpg" alt="" />
+                  <img src="assets/images/pics/port_1.jpg" alt="" />
                 </div>
                 <div className="entry-content">
                   <a href="#" className="cat-btn">
-                    Organic Foods
+                    coming soon
                   </a>
                   <h3 className="title">
                     <Link href="/blog-details">
-                      <a>Smashin Podcast Episode Ferdinande Web Dead</a>
+                      <a>coming soon</a>
                     </Link>
                   </h3>
                   <div className="post-meta">
@@ -303,15 +215,15 @@ const PortfolioHb = () => {
             <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
               <div className="blog-post-item-two mb-40 wow fadeInUp">
                 <div className="post-thumbnail">
-                  <img src="assets/images/blog/img-5.jpg" alt="" />
+                  <img src="assets/images/pics/port_1.jpg" alt="" />
                 </div>
                 <div className="entry-content">
                   <a href="#" className="cat-btn">
-                    Organic Foods
+                    coming soon
                   </a>
                   <h3 className="title">
                     <Link href="/blog-details">
-                      <a>Powerful Termimand Linec Tools Modern Web</a>
+                      <a>coming soon</a>
                     </Link>
                   </h3>
                   <div className="post-meta">
@@ -336,15 +248,15 @@ const PortfolioHb = () => {
             <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
               <div className="blog-post-item-two mb-40 wow fadeInDown">
                 <div className="post-thumbnail">
-                  <img src="assets/images/blog/img-6.jpg" alt="" />
+                  <img src="assets/images/pics/port_1.jpg" alt="" />
                 </div>
                 <div className="entry-content">
                   <a href="#" className="cat-btn">
-                    Organic Foods
+                  coming soon
                   </a>
                   <h3 className="title">
                     <Link href="/blog-details">
-                      <a>Smashin Podcast Episode Ferdinande Web Dead</a>
+                      <a>coming soon</a>
                     </Link>
                   </h3>
                   <div className="post-meta">

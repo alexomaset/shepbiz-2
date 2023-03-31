@@ -188,15 +188,15 @@ const PortfolioNakuru = () => {
             <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
               <div className="blog-post-item-two mb-40 wow fadeInDown">
                 <div className="post-thumbnail">
-                  <img src="assets/images/blog/img-4.jpg" alt="" />
+                  <img src="assets/images/pics/port_1.jpg" alt="" />
                 </div>
                 <div className="entry-content">
                   <a href="#" className="cat-btn">
-                    Organic Foods
+                    coming soon
                   </a>
                   <h3 className="title">
                     <Link href="/blog-details">
-                      <a>Smashin Podcast Episode Ferdinande Web Dead</a>
+                      <a>coming soon</a>
                     </Link>
                   </h3>
                   <div className="post-meta">
@@ -221,15 +221,15 @@ const PortfolioNakuru = () => {
             <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
               <div className="blog-post-item-two mb-40 wow fadeInUp">
                 <div className="post-thumbnail">
-                  <img src="assets/images/blog/img-5.jpg" alt="" />
+                  <img src="assets/images/pics/port_1.jpg" alt="" />
                 </div>
                 <div className="entry-content">
                   <a href="#" className="cat-btn">
-                    Organic Foods
+                    coming soon
                   </a>
                   <h3 className="title">
                     <Link href="/blog-details">
-                      <a>Powerful Termimand Linec Tools Modern Web</a>
+                      <a>coming soon</a>
                     </Link>
                   </h3>
                   <div className="post-meta">
@@ -254,15 +254,15 @@ const PortfolioNakuru = () => {
             <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
               <div className="blog-post-item-two mb-40 wow fadeInDown">
                 <div className="post-thumbnail">
-                  <img src="assets/images/blog/img-6.jpg" alt="" />
+                  <img src="assets/images/pics/port_1.jpg" alt="" />
                 </div>
                 <div className="entry-content">
                   <a href="#" className="cat-btn">
-                    Organic Foods
+                  coming soon
                   </a>
                   <h3 className="title">
                     <Link href="/blog-details">
-                      <a>Smashin Podcast Episode Ferdinande Web Dead</a>
+                      <a>coming soon</a>
                     </Link>
                   </h3>
                   <div className="post-meta">
