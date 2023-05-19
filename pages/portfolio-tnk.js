@@ -135,7 +135,7 @@ const PortfolioTnk = () => {
         </div>
       </section>
       <div className="map-box">
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=16WckAUQ-0Y_KBmwbEKDhRvQ3vZpIWE8T" width="500" height="650"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1fyUDMgPnW7z3P_2Kyajj45MbJDIIigo&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
         
           </div>
       {/*====== End service-details-section Section ======*/}

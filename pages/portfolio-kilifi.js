@@ -168,11 +168,7 @@ const PortfolioKilifi = () => {
         </div>
       </section>
       <div className="map-box">
-        <iframe
-          src="https://www.google.com/maps/d/u/0/embed?mid=16WckAUQ-0Y_KBmwbEKDhRvQ3vZpIWE8T"
-          width="500"
-          height="650"
-        ></iframe>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1ShaqcXgWs7tqP-OfTcpQLBrC86UV-oo&ehbc=2E312F" width="640" height="480"></iframe>
       </div>
       {/*====== End service-details-section Section ======*/}
       <section className="blog-section pt-90 pb-130 p-r z-1">
