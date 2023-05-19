@@ -29,11 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/portfolio-hb.js"
-    ],
-    "/portfolio-nakuru": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/portfolio-nakuru.js"
     ]
   },
   "ampFirstPages": []
