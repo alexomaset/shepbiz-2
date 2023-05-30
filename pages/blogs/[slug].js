@@ -38,13 +38,13 @@ export default function PostDetails({ posts }) {
 
   console.log(posts);
   return (
-      <section className="blog-details-page pt-170 pb-90">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-8 col-lg-7">
-              <div className="blog-details-wrapper mb-40 wow fadeInUp">
-                <div className="blog-post-item">
-                  {/* <div className="post-thumbnail">
+    <section className="blog-details-page pt-170 pb-90">
+      <div className="container">
+        <div className="row">
+          <div className="col-xl-8 col-lg-7">
+            <div className="blog-details-wrapper mb-40 wow fadeInUp">
+              <div className="blog-post-item">
+                {/* <div className="post-thumbnail">
                     <Image
                       src={'https:' + image.fields.file.url}
                       alt="Blog Image"
@@ -52,43 +52,42 @@ export default function PostDetails({ posts }) {
                       height={image.fields.file.details.image.height}
                     />
                   </div> */}
-                  <div className="post-content">
-                    <div className="entry-content">
-                      <a href="#" className="cat-btn">
-                        {title}
-                      </a>
-                      <h3 className="title">{title}</h3>
-                      <div className="post-meta">
-                        <ul>
-                          <li>
-                            <span>
-                              <i className="far fa-calendar-alt" />
-                              <a href="#">{date}</a>
-                            </span>
-                          </li>
-                        </ul>
-                      </div>
+                <div className="post-content">
+                  <div className="entry-content">
+                    <a href="#" className="cat-btn">
+                      {title}
+                    </a>
+                    <h3 className="title">{title}</h3>
+                    <div className="post-meta">
+                      <ul>
+                        <li>
+                          <span>
+                            <i className="far fa-calendar-alt" />
+                            <a href="#">{date}</a>
+                          </span>
+                        </li>
+                      </ul>
                     </div>
-                    <p>{documentToReactComponents(content)}</p>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-5">
-              <div className="sidebar-widget-area">
-                <div className="widget tag-cloud-widget wow fadeInUp mb-40">
-                  <h4 className="widget-title">Popular Tags</h4>
-                  <a href="#">Macadamia</a>
-                  <a href="#">Cashew</a>
-                  <a href="#">Avocado</a>
-                  <a href="#">Milled Rice</a>
-                  <a href="#">Groundnuts</a>
+                  <p>{documentToReactComponents(content)}</p>
                 </div>
               </div>
             </div>
           </div>
+          <div className="col-xl-4 col-lg-5">
+            <div className="sidebar-widget-area">
+              <div className="widget tag-cloud-widget wow fadeInUp mb-40">
+                <h4 className="widget-title">Popular Tags</h4>
+                <a href="#">Macadamia</a>
+                <a href="#">Cashew Nuts</a>
+                <a href="#">Avocado</a>
+                <a href="#">Milled Rice</a>
+                <a href="#">Groundnuts</a>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-
+      </div>
+    </section>
   );
 }
