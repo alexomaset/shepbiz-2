@@ -685,9 +685,6 @@ const Menu = () => (
           <li>
             <Link href="blog-standard">Blogs</Link>
           </li>
-          <li>
-            <Link href="blog-details">Blog Details</Link>
-          </li>
         </ul>
       </li>
     </ul>
