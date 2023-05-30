@@ -38,7 +38,6 @@ export default function PostDetails({ posts }) {
 
   console.log(posts);
   return (
-    <Layout>
       <section className="blog-details-page pt-170 pb-90">
         <div className="container">
           <div className="row">
@@ -90,6 +89,6 @@ export default function PostDetails({ posts }) {
           </div>
         </div>
       </section>
-    </Layout>
+
   );
 }
