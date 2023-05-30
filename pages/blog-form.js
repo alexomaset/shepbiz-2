@@ -1,76 +1,68 @@
-import { useState } from 'react';
+import { createClient } from 'contentful';
+import BlogStandard from './blog-standard';
+import { projectsSliderThree } from 'src/sliderProps';
+import BlogCard from 'components/BlogCard';
+import Link from "next/link";
+import PageBanner from "../src/components/PageBanner";
+import Layout from "../src/layouts/Layout";
 
-const BlogForm = () => {
-  const [title, setTitle] = useState('');
-  const [content, setContent] = useState('');
-  const [image, setImage] = useState(null);
+export async function getStaticProps() {
+  const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+  });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(title,content,image);
+  const res = await client.getEntries({ content_type: 'posts' });
+  const posts =  res.items
+
+  return {
+    props: {
+      posts
+    }
   }
+}
 
+
+export default function Home({ posts }) {
+  console.log(posts)
   return (
-    <form onSubmit={handleSubmit}>
-      <div className="form-group">
-        <label className="form-label">Title:</label>
-        <input
-          type="text"
-          value={title}
-          onChange={e => setTitle(e.target.value)}
-          className="form-input"
-        />
-      </div>
-      <div className="form-group">
-        <label className="form-label">Content:</label>
-        <textarea
-          value={content}
-          onChange={e => setContent(e.target.value)}
-          className="form-input"
-        />
-      </div>
-      <div className="form-group">
-        <label className="form-label">Image:</label>
-        <input
-          type="file"
-          onChange={e => setImage(e.target.files[0])}
-          className="form-input"
-        />
-      </div>
-      <button className="submit-button">Submit</button>
-      <style jsx>{`
-        .form-group {
-          margin-bottom: 20px;
-        }
-        .form-label {
-          font-size: 18px;
-          font-weight: bold;
-          margin-bottom: 10px;
-        }
-        .form-input {
-          padding: 10px;
-          font-size: 16px;
-          border-radius: 5px;
-          border: 1px solid #ccc;
-          width: 100%;
-          box-sizing: border-box;
-        }
-        .submit-button {
-          background-color: #4CAF50;
-          color: white;
-          padding: 12px 20px;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
-          float: right;
-          font-size: 16px;
-        }
-        .submit-button:hover {
-          background-color: #45a049;
-        }
-      `}</style>
-    </form>
+    <Layout>
+    <PageBanner pageName={"Blogs"} />
+    <section className="blog-standard-section pt-170 pb-80">
+    <div>
+        {posts.map((post) => (
+          <BlogCard key={post.sys.id} post={post}/>
+        ))}
+    </div>
+    <div className="col-xl-4 col-lg-5">
+              <div className="sidebar-widget-area">
+                <div className="widget search-widget mb-40 wow fadeInUp">
+                  <form onSubmit={(e) => e.preventDefault()}>
+                    <div className="form_group">
+                      <input
+                        type="email"
+                        className="form_control"
+                        placeholder="Search here"
+                        name="email"
+                        required=""
+                      />
+                      <button className="search-btn">
+                        <i className="far fa-search" />
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div className="widget tag-cloud-widget mb-40 wow fadeInUp">
+                  <h4 className="widget-title">Popular Tags</h4>
+                  <a href="#">avocado</a>
+                  <a href="#">Groundnuts</a>
+                  <a href="#">Cashew</a>
+                  <a href="#">Macadamia</a>
+                  <a href="#">Milled Rice</a>
+                </div>
+              </div>
+            </div>
+    </ section>
+    </ Layout>
   );
-};
-
-export default BlogForm;
+}

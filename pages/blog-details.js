@@ -1,10 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
 const BlogDetails = () => {
-  // const fetchBlogs = async () => {
-  //   const response = await ``;
-  // };
   return (
     <Layout>
       <PageBanner pageName={"Blog Details"} />
