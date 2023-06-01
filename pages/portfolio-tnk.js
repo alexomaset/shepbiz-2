@@ -65,7 +65,7 @@ const PortfolioTnk = () => {
                   <h4 className="widget-title">Sub-counties</h4>
                   <ul className="category-nav">
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps?q=Maara&ftid=0x182795c06e948061:0xcc54ea8ce6430d78">
                       Maara 
                         <span>
                           <i className="far fa-arrow-right" />
@@ -73,7 +73,7 @@ const PortfolioTnk = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps?q=Muthambi&ftid=0x1827beb74b3ff00f:0x1b88ad4f63a1917f">
                       Muthambi
                         <span>
                           <i className="far fa-arrow-right" />
@@ -81,7 +81,7 @@ const PortfolioTnk = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/url?q=https://maps.google.com/?q%3DChuka%26ftid%3D0x1827b87d15133c4b:0x989bec815b0252c5&sa=D&sntz=1&usd=2&usg=AOvVaw24G5yYso5kxD3IPcB8YKDa">
                        Chuka
                         <span>
                           <i className="far fa-arrow-right" />
@@ -149,7 +149,7 @@ const PortfolioTnk = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
             <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
               <div className="blog-post-item-two mb-40 wow fadeInDown">
                 <div className="post-thumbnail">
@@ -249,13 +249,13 @@ const PortfolioTnk = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-lg-12">
               <div className="button-box text-center wow fadeInUp">
                 <Link href="/blog-standard">
                   <a className="main-btn bordered-btn bordered-yellow">
-                    View More News
+                  View News
                   </a>
                 </Link>
               </div>

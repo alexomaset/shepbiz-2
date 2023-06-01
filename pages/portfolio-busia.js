@@ -99,7 +99,7 @@ const PortfolioBusia = () => {
                   <h4 className="widget-title">Sub-counties</h4>
                   <ul className="category-nav">
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps?q=Busia-Mumias+Rd,+Nambale&ftid=0x177fa1e48b2213f1:0x44a2ddab86e182b6">
                         Nambale
                         <span>
                           <i className="far fa-arrow-right" />
@@ -107,7 +107,7 @@ const PortfolioBusia = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/url?q=https://maps.google.com/?q%3DBunyala%2BCentral%26ftid%3D0x177fdbe86ebeb0cb:0x910564a37fdf2296&sa=D&sntz=1&usd=2&usg=AOvVaw2eqZb7ABGeX8NUzxWNJoaU">
                         Bunyala
                         <span>
                           <i className="far fa-arrow-right" />
@@ -115,7 +115,7 @@ const PortfolioBusia = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps?cid=5226350905775323576">
                         Teso South
                         <span>
                           <i className="far fa-arrow-right" />
@@ -181,7 +181,7 @@ const PortfolioBusia = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
             <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
               <div className="blog-post-item-two mb-40 wow fadeInDown">
                 <div className="post-thumbnail">
@@ -281,13 +281,13 @@ const PortfolioBusia = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-lg-12">
               <div className="button-box text-center wow fadeInUp">
                 <Link href="/blog-standard">
                   <a className="main-btn bordered-btn bordered-yellow">
-                    View More News
+                    View News
                   </a>
                 </Link>
               </div>

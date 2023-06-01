@@ -86,7 +86,7 @@ const PortfolioKilifi = () => {
                   <h4 className="widget-title">Sub-counties</h4>
                   <ul className="category-nav">
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps?cid=16747146395432293929">
                         Kilifi North
                         <span>
                           <i className="far fa-arrow-right" />
@@ -94,7 +94,7 @@ const PortfolioKilifi = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps/place/Kaloleni+Kilifi+Junction/@-3.8172828,39.626333,17z/data=!3m1!4b1!4m6!3m5!1s0x183f8cebfbe00d05:0x1c914311a13c180e!8m2!3d-3.8172828!4d39.626333!16s%2Fg%2F1pzt983tq?entry=ttu">
                         Kaloleni
                         <span>
                           <i className="far fa-arrow-right" />
@@ -102,7 +102,7 @@ const PortfolioKilifi = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps?q=Ganze&ftid=0x183fc7ec8fd623cf:0x3daf80445f228af8">
                         Ganze
                         <span>
                           <i className="far fa-arrow-right" />
@@ -110,7 +110,7 @@ const PortfolioKilifi = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps?q=Malindi&ftid=0x18158fa8aba15693:0xcbebf1008265d79d">
                         Malindi
                         <span>
                           <i className="far fa-arrow-right" />
@@ -118,7 +118,7 @@ const PortfolioKilifi = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps?q=Magarini&ftid=0x1815f133bd75a78f:0xe169a033f5035023">
                         Magarini
                         <span>
                           <i className="far fa-arrow-right" />
@@ -181,7 +181,7 @@ const PortfolioKilifi = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
             <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
               <div className="blog-post-item-two mb-40 wow fadeInDown">
                 <div className="post-thumbnail">
@@ -281,13 +281,13 @@ const PortfolioKilifi = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-lg-12">
               <div className="button-box text-center wow fadeInUp">
                 <Link href="/blog-standard">
                   <a className="main-btn bordered-btn bordered-yellow">
-                    View More News
+                    View News
                   </a>
                 </Link>
               </div>

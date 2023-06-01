@@ -82,7 +82,7 @@ const PortfolioHb = () => {
                   <h4 className="widget-title">Sub-counties</h4>
                   <ul className="category-nav">
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps?q=Rangwe&ftid=0x182b2dc914f45885:0x91ade3b83d2b8396">
                       Rangwe 
                         <span>
                           <i className="far fa-arrow-right" />
@@ -90,7 +90,7 @@ const PortfolioHb = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps/place/Ndhiwa/@-0.7314721,34.3677234,15z/data=!3m1!4b1!4m6!3m5!1s0x19d4c90d252af9cd:0xe8da2021ba80a744!8m2!3d-0.7298697!4d34.3671172!16s%2Fm%2F0bs6xr0?entry=ttu">
                       Ndhiwa
                         <span>
                           <i className="far fa-arrow-right" />
@@ -98,7 +98,7 @@ const PortfolioHb = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps?q=Rachuonyo+North+Headquater&ftid=0x182ad03b6d21dc45:0xba62bb58df42d633">
                       Rachuonyo North
                         <span>
                           <i className="far fa-arrow-right" />
@@ -106,7 +106,7 @@ const PortfolioHb = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.google.com/maps?cid=8031235320505341759">
                       Rachuonyo South
                         <span>
                           <i className="far fa-arrow-right" />
@@ -178,7 +178,7 @@ const PortfolioHb = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
             <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
               <div className="blog-post-item-two mb-40 wow fadeInDown">
                 <div className="post-thumbnail">
@@ -278,13 +278,13 @@ const PortfolioHb = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-lg-12">
               <div className="button-box text-center wow fadeInUp">
                 <Link href="/blog-standard">
                   <a className="main-btn bordered-btn bordered-yellow">
-                    View More News
+                    View News
                   </a>
                 </Link>
               </div>
