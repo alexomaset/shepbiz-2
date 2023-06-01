@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function BlogCard({ post }) {
-  const { title, content, slug, date } = post.fields;
+  const { title, content, slug, date, tag } = post.fields;
 
   return (
     <div className="container">
@@ -15,8 +15,6 @@ export default function BlogCard({ post }) {
                 <img
                   src="assets/images/blog/download.jpeg"
                   alt="Post Image"
-                  width="400"
-                  height="200"
                 />
               </div>
               <div className="entry-content white-bg">
@@ -34,6 +32,12 @@ export default function BlogCard({ post }) {
                       <span>
                         <i className="far fa-calendar-alt" />
                         <a href="#">{date}</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <i className="far fa-tag" />
+                        <a href="#">{tag}</a>
                       </span>
                     </li>
                   </ul>
