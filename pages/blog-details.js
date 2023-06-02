@@ -431,57 +431,6 @@ const BlogDetails = () => {
                   </ul>
                 </div>
                 <div className="widget recent-post-widget mb-40 wow fadeInUp">
-                  <h4 className="widget-title">Recent News</h4>
-                  <ul className="recent-post-list">
-                    <li className="post-thumbnail-content">
-                      <img
-                        src="assets/images/widget/news-1.jpg"
-                        alt="post image"
-                      />
-                      <div className="post-title-date">
-                        <h6>
-                          <Link href="/blog-details">
-                            <a>Website Launch for Shepbiz</a>
-                          </Link>
-                        </h6>
-                        <span className="posted-on">
-                          By <a href="#">Alex Omaset</a>
-                        </span>
-                      </div>
-                    </li>
-                    {/* <li className="post-thumbnail-content">
-                      <img
-                        src="assets/images/widget/news-2.jpg"
-                        alt="post image"
-                      />
-                      <div className="post-title-date">
-                        <h6>
-                          <Link href="/blog-details">
-                            <a>Guide Modern CSS Colors HWB, LAB</a>
-                          </Link>
-                        </h6>
-                        <span className="posted-on">
-                          By <a href="#">Somalia D. Silba</a>
-                        </span>
-                      </div>
-                    </li>
-                    <li className="post-thumbnail-content">
-                      <img
-                        src="assets/images/widget/news-3.jpg"
-                        alt="post image"
-                      />
-                      <div className="post-title-date">
-                        <h6>
-                          <Link href="/blog-details">
-                            <a>Guide Modern CSS Colors HWB, LAB</a>
-                          </Link>
-                        </h6>
-                        <span className="posted-on">
-                          By <a href="#">Somalia D. Silba</a>
-                        </span>
-                      </div>
-                    </li> */}
-                  </ul>
                 </div>
                 <div className="widget tag-cloud-widget wow fadeInUp mb-40">
                   <h4 className="widget-title">Popular Tags</h4>
