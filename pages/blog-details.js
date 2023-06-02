@@ -401,7 +401,7 @@ const BlogDetails = () => {
                     </ul>
                   </div>
                 </div> */}
-                <div className="widget category-widget mb-40 wow fadeInUp">
+                {/* <div className="widget category-widget mb-40 wow fadeInUp">
                   <h4 className="widget-title">Category</h4>
                   <ul className="category-nav">
                     <li>
@@ -429,15 +429,15 @@ const BlogDetails = () => {
                       </a>
                     </li>
                   </ul>
-                </div>
-                <div className="widget tag-cloud-widget wow fadeInUp mb-40">
+                </div> */}
+                {/* <div className="widget tag-cloud-widget wow fadeInUp mb-40">
                   <h4 className="widget-title">Popular Tags</h4>
                   <a href="#">Macadamia</a>
                   <a href="#">Cashew</a>
                   <a href="#">Avocado</a>
                   <a href="#">Milled Rice</a>
                   <a href="#">Groundnuts</a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
