@@ -215,7 +215,7 @@ const PortfolioGridIsotope = ({ posts }) => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-4">
+        {/* <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-4">
           <div className="project-item-three mb-30 wow fadeInDown">
             <div className="img-holder">
               <img src="assets/images/blog/blog-standard-3.jpg" alt="" />
@@ -254,7 +254,7 @@ const PortfolioGridIsotope = ({ posts }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-5">
           <div className="project-item-three mb-30 wow fadeInUp">
             <div className="img-holder">
