@@ -1,7 +1,7 @@
 import Isotope from "isotope-layout";
 import Link from "next/link";
 import { Fragment, useEffect, useRef, useState } from "react";
-const PortfolioGridIsotope = () => {
+const PortfolioGridIsotope = ({ posts }) => {
   // Isotope
   const isotope = useRef();
   const [filterKey, setFilterKey] = useState("*");
@@ -50,76 +50,56 @@ const PortfolioGridIsotope = () => {
               <li
                 className={`c-pointer ${activeBtn("cat-1")}`}
                 onClick={handleFilterKeyChange("cat-1")}
-                data-filter=".cat-1"
+                data-filter=".avocado"
               >
-                Kilifi
+                Avocado VC
               </li>
               <li
                 className={`c-pointer ${activeBtn("cat-3")}`}
                 onClick={handleFilterKeyChange("cat-3")}
                 data-filter=".cat-2"
               >
-                Tharaka Nithi
+                Macadamia VC
               </li>
               <li
                 className={`c-pointer ${activeBtn("cat-2")}`}
                 onClick={handleFilterKeyChange("cat-2")}
                 data-filter=".cat-3"
               >
-                Nakuru
+                Groundnuts VC
               </li>
               <li
                 className={`c-pointer ${activeBtn("cat-4")}`}
                 onClick={handleFilterKeyChange("cat-4")}
                 data-filter=".cat-4"
               >
-                Busia
+                Milled Rice VC
               </li>
               <li
                 className={`c-pointer ${activeBtn("cat-5")}`}
                 onClick={handleFilterKeyChange("cat-5")}
                 data-filter=".cat-6"
               >
-                Homa &amp; Bay
+                Cashew Nuts VC
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="row project-row">
-        <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-1">
-          <div className="project-item-three mb-30 wow fadeInUp">
-            <div className="img-holder">
-              <img src="assets/images/portfolio/cashew.jpeg" alt="" />
-              <div className="hover-portfolio">
-                <div className="icon-btn">
-                  <Link href="/portfolio-kilifi">
-                    <a>
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-                <div className="hover-content">
-                  <h3 className="title">
-                    <Link href="/portfolio-kilifi">
-                      <a>Kilifi County</a>
-                    </Link>
-                  </h3>
-                  <p>
-                    <a href="#">Cashew Nuts Value Chain Promotion</a>
-                  </p>
-                </div>
-              </div>
-            </div>
+      {/* {posts.map((post) => (
+          <div key={post.id} className={`grid-item ${post.tags}`}>
+            <h3>{post.title}</h3>
+            <p>{post.content}</p>
           </div>
-        </div>
+        ))} */}
         <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-2">
           <div className="project-item-three mb-30 wow fadeInDown">
             <div className="img-holder">
               <img src="assets/images/portfolio/avocado-2.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
-                  <Link href="/portfolio-nakuru">
+                  <Link href="/blog-details">
                     <a>
                       <i className="far fa-arrow-right" />
                     </a>
@@ -127,8 +107,8 @@ const PortfolioGridIsotope = () => {
                 </div>
                 <div className="hover-content">
                   <h3 className="title">
-                    <Link href="/portfolio-nakuru">
-                      <a>Nakuru County</a>
+                    <Link href="/blog-details">
+                      <a>tags testig</a>
                     </Link>
                   </h3>
                   <p>
@@ -145,7 +125,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/portfolio/macademia.jpeg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
-                  <Link href="/portfolio-tnk">
+                  <Link href="/blog-details">
                     <a>
                       <i className="far fa-arrow-right" />
                     </a>
@@ -153,8 +133,8 @@ const PortfolioGridIsotope = () => {
                 </div>
                 <div className="hover-content">
                   <h3 className="title">
-                    <Link href="/portfolio-tnk">
-                      <a>Tharaka Nithi County</a>
+                    <Link href="/blog-details">
+                      <a>wesite</a>
                     </Link>
                   </h3>
                   <p>
@@ -171,7 +151,7 @@ const PortfolioGridIsotope = () => {
               <img src="assets/images/portfolio/rice-1.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
-                  <Link href="/portfolio-busia">
+                  <Link href="/blog-details">
                     <a>
                       <i className="far fa-arrow-right" />
                     </a>
@@ -205,7 +185,7 @@ const PortfolioGridIsotope = () => {
                 </div>
                 <div className="hover-content">
                   <h3 className="title">
-                    <Link href="/portfolio-hb">
+                    <Link href="/blog-details">
                       <a>Homa Bay County</a>
                     </Link>
                   </h3>

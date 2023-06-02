@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/blog-standard": "pages/blog-standard.js"
+  "/blog-standard": "pages/blog-standard.js",
+  "/portfolio-busia": "pages/portfolio-busia.js"
 }

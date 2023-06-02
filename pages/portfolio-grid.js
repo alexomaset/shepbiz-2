@@ -32,7 +32,7 @@ const Portfolio = () => {
           <div className="map-box">
             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=16WckAUQ-0Y_KBmwbEKDhRvQ3vZpIWE8T" width="1200" height="650"></iframe>
           </div>
-          {/* <PortfolioGridIsotope /> */}
+          <PortfolioGridIsotope />
         </div>
       </section>
     </Layout>
