@@ -349,7 +349,7 @@ const BlogDetails = () => {
             </div>
             <div className="col-xl-4 col-lg-5">
               <div className="sidebar-widget-area">
-                <div className="widget search-widget mb-40 wow fadeInUp">
+                {/* <div className="widget search-widget mb-40 wow fadeInUp">
                   <form onSubmit={(e) => e.preventDefault()}>
                     <div className="form_group">
                       <input
@@ -364,7 +364,7 @@ const BlogDetails = () => {
                       </button>
                     </div>
                   </form>
-                </div>
+                </div> */}
                 {/* <div className="widget author-widget mb-40 wow fadeInUp">
                   <div className="author-content">
                     <img
