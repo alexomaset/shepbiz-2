@@ -39,7 +39,7 @@ const BlogDetails = () => {
                       </div>
                     </div>
                     <p>
-                     check
+                    check222
                     </p>
                     {/* <blockquote>
                       <h4>
