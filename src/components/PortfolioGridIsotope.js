@@ -116,12 +116,16 @@ const PortfolioGridIsotope = ({ posts }) => {
                       <li>
                         <span>
                           <i className="far fa-calendar-alt" />
-                          <a href="/post-dets4">25 March 2022</a>
+                          <Link href="/post-dets4">
+                            <a>25 March 2022</a>
+                          </Link>
                         </span>
                       </li>
                     </ul>
-                    <a href="/post-dets4">Avocado Value Chain Promotion</a>,
-                    <a href="#"></a>
+                    <Link href="/post-dets4">
+                      <a>Avocado Value Chain Promotion</a>
+                    </Link>
+                    ,<a href="#"></a>
                   </p>
                 </div>
               </div>
@@ -151,12 +155,16 @@ const PortfolioGridIsotope = ({ posts }) => {
                       <li>
                         <span>
                           <i className="far fa-calendar-alt" />
-                          <a href="/post-dets1">1 June 2023</a>
+                          <Link href="/post-dets1">
+                            <a>1 June 2023</a>
+                          </Link>
                         </span>
                       </li>
                     </ul>
-                    <a href="/post-dets1">Groundnuts Value Chain Promotion</a>,
-                    <a href="#"></a>
+                    <Link href="/post-dets1">
+                      <a>Groundnuts Value Chain Promotion</a>
+                    </Link>
+                    ,<a href="#"></a>
                   </p>
                 </div>
               </div>
@@ -186,11 +194,15 @@ const PortfolioGridIsotope = ({ posts }) => {
                       <li>
                         <span>
                           <i className="far fa-calendar-alt" />
-                          <a href="/post-dets2">25 March 2022</a>
+                          <Link href="/post-dets2">
+                            <a>25 March 2022</a>
+                          </Link>
                         </span>
                       </li>
                     </ul>
-                    <a href="/post-dets2">Macademia Value Chain Promotion</a>
+                    <Link href="/post-dets2">
+                      <a>Macademia Value Chain Promotion</a>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -260,7 +272,9 @@ const PortfolioGridIsotope = ({ posts }) => {
                       <li>
                         <span>
                           <i className="far fa-calendar-alt" />
-                          <a href="/blog-details">2 June 2023</a>
+                          <Link href="/blog-details">
+                            <a>2 June 2023</a>
+                          </Link>
                         </span>
                       </li>
                     </ul>

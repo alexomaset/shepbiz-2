@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/blog-standard": "pages/blog-standard.js",
-  "/post-dets2": "pages/post-dets2.js",
+  "/": "pages/index.js",
   "/blog-details": "pages/blog-details.js"
 }
