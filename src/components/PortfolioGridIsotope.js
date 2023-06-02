@@ -270,7 +270,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                 <div className="hover-content">
                   <h3 className="title">
                     <Link href="/blog-details">
-                      <a>Homa Bay News</a>
+                      <a>Check</a>
                     </Link>
                   </h3>
                   <p>
@@ -278,17 +278,11 @@ const PortfolioGridIsotope = ({ posts }) => {
                       <li>
                         <span>
                           <i className="far fa-calendar-alt" />
-                          <a href="#">25 March 2023</a>
-                        </span>
-                      </li>
-                      <li>
-                        <span>
-                          <i className="far fa-comments" />
-                          <a href="#">Comment (5)</a>
+                          <a href="#">1 June 2023</a>
                         </span>
                       </li>
                     </ul>
-                    <a href="#">wesite</a>
+                    <a href="#"></a>
                   </p>
                 </div>
               </div>
