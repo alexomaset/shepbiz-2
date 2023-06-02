@@ -260,7 +260,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                       <li>
                         <span>
                           <i className="far fa-calendar-alt" />
-                          <a href="/blog-details">1 June 2023</a>
+                          <a href="/blog-details">2 June 2023</a>
                         </span>
                       </li>
                     </ul>
