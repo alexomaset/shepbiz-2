@@ -116,13 +116,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                       <li>
                         <span>
                           <i className="far fa-calendar-alt" />
-                          <a href="#">25 March 2022</a>
-                        </span>
-                      </li>
-                      <li>
-                        <span>
-                          <i className="far fa-comments" />
-                          <a href="#">Comment (5)</a>
+                          <a href="/post-dets4">25 March 2022</a>
                         </span>
                       </li>
                     </ul>
@@ -157,13 +151,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                       <li>
                         <span>
                           <i className="far fa-calendar-alt" />
-                          <a href="#">1 June 2023</a>
-                        </span>
-                      </li>
-                      <li>
-                        <span>
-                          <i className="far fa-comments" />
-                          <a href="#">Comment (5)</a>
+                          <a href="/post-dets1">1 June 2023</a>
                         </span>
                       </li>
                     </ul>
@@ -198,13 +186,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                       <li>
                         <span>
                           <i className="far fa-calendar-alt" />
-                          <a href="#">25 March 2022</a>
-                        </span>
-                      </li>
-                      <li>
-                        <span>
-                          <i className="far fa-comments" />
-                          <a href="#">Comment (5)</a>
+                          <a href="/post-dets2">25 March 2022</a>
                         </span>
                       </li>
                     </ul>
@@ -278,7 +260,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                       <li>
                         <span>
                           <i className="far fa-calendar-alt" />
-                          <a href="#">1 June 2023</a>
+                          <a href="/blog-details">1 June 2023</a>
                         </span>
                       </li>
                     </ul>
