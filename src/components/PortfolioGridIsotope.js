@@ -50,7 +50,7 @@ const PortfolioGridIsotope = ({ posts }) => {
               <li
                 className={`c-pointer ${activeBtn("cat-1")}`}
                 onClick={handleFilterKeyChange("cat-1")}
-                data-filter=".avocado"
+                data-filter=".cat-1"
               >
                 Avocado VC
               </li>
@@ -87,16 +87,16 @@ const PortfolioGridIsotope = ({ posts }) => {
         </div>
       </div>
       <div className="row project-row">
-      {/* {posts.map((post) => (
+        {/* {posts.map((post) => (
           <div key={post.id} className={`grid-item ${post.tags}`}>
             <h3>{post.title}</h3>
             <p>{post.content}</p>
           </div>
         ))} */}
-        <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-2">
+        <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-1">
           <div className="project-item-three mb-30 wow fadeInDown">
             <div className="img-holder">
-              <img src="assets/images/portfolio/macademia.jpeg" alt="" />
+              <img src="assets/images/blog/blog-standard-3.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
                   <Link href="/blog-details">
@@ -108,11 +108,67 @@ const PortfolioGridIsotope = ({ posts }) => {
                 <div className="hover-content">
                   <h3 className="title">
                     <Link href="/blog-details">
-                      <a>tags testig</a>
+                      <a>dfghjk</a>
                     </Link>
                   </h3>
                   <p>
-                    <a href="#">Avocado Value Chain Promotion</a>,<a href="#"></a>
+                    <ul>
+                      <li>
+                        <span>
+                          <i className="far fa-calendar-alt" />
+                          <a href="#">25 March 2022</a>
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          <i className="far fa-comments" />
+                          <a href="#">Comment (5)</a>
+                        </span>
+                      </li>
+                    </ul>
+                    <a href="#">Avocado Value Chain Promotion</a>,
+                    <a href="#"></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-2">
+          <div className="project-item-three mb-30 wow fadeInDown">
+            <div className="img-holder">
+              <img src="assets/images/blog/blog-standard-3.jpg" alt="" />
+              <div className="hover-portfolio">
+                <div className="icon-btn">
+                  <Link href="/blog-details">
+                    <a>
+                      <i className="far fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+                <div className="hover-content">
+                  <h3 className="title">
+                    <Link href="/blog-details">
+                      <a>dfghjk</a>
+                    </Link>
+                  </h3>
+                  <p>
+                    <ul>
+                      <li>
+                        <span>
+                          <i className="far fa-calendar-alt" />
+                          <a href="#">1 June 2023</a>
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          <i className="far fa-comments" />
+                          <a href="#">Comment (5)</a>
+                        </span>
+                      </li>
+                    </ul>
+                    <a href="#">Groundnuts Value Chain Promotion</a>,
+                    <a href="#"></a>
                   </p>
                 </div>
               </div>
@@ -122,7 +178,7 @@ const PortfolioGridIsotope = ({ posts }) => {
         <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-3">
           <div className="project-item-three mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/portfolio/macademia.jpeg" alt="" />
+              <img src="assets/images/blog/blog-standard-3.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
                   <Link href="/blog-details">
@@ -138,6 +194,20 @@ const PortfolioGridIsotope = ({ posts }) => {
                     </Link>
                   </h3>
                   <p>
+                    <ul>
+                      <li>
+                        <span>
+                          <i className="far fa-calendar-alt" />
+                          <a href="#">25 March 2022</a>
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          <i className="far fa-comments" />
+                          <a href="#">Comment (5)</a>
+                        </span>
+                      </li>
+                    </ul>
                     <a href="#">Macademia Value Chain Promotion</a>
                   </p>
                 </div>
@@ -148,7 +218,7 @@ const PortfolioGridIsotope = ({ posts }) => {
         <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-4">
           <div className="project-item-three mb-30 wow fadeInDown">
             <div className="img-holder">
-              <img src="assets/images/portfolio/rice-1.jpg" alt="" />
+              <img src="assets/images/blog/blog-standard-3.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
                   <Link href="/blog-details">
@@ -160,10 +230,24 @@ const PortfolioGridIsotope = ({ posts }) => {
                 <div className="hover-content">
                   <h3 className="title">
                     <Link href="/portfolio-busia">
-                      <a>Busia County</a>
+                      <a>Busia County News</a>
                     </Link>
                   </h3>
                   <p>
+                    <ul>
+                      <li>
+                        <span>
+                          <i className="far fa-calendar-alt" />
+                          <a href="#">2 May 2023</a>
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          <i className="far fa-comments" />
+                          <a href="#">Comment (5)</a>
+                        </span>
+                      </li>
+                    </ul>
                     <a href="#">Rice Value Chain Promotion</a>
                   </p>
                 </div>
@@ -174,7 +258,7 @@ const PortfolioGridIsotope = ({ posts }) => {
         <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-5">
           <div className="project-item-three mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/portfolio/groundnuts-2.jpg" alt="" />
+              <img src="assets/images/blog/blog-standard-3.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
                   <Link href="/portfolio-hb">
@@ -186,11 +270,25 @@ const PortfolioGridIsotope = ({ posts }) => {
                 <div className="hover-content">
                   <h3 className="title">
                     <Link href="/blog-details">
-                      <a>Homa Bay County</a>
+                      <a>Homa Bay News</a>
                     </Link>
                   </h3>
                   <p>
-                    <a href="#">Groundnuts Value Chain Promotion</a>
+                    <ul>
+                      <li>
+                        <span>
+                          <i className="far fa-calendar-alt" />
+                          <a href="#">25 March 2023</a>
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          <i className="far fa-comments" />
+                          <a href="#">Comment (5)</a>
+                        </span>
+                      </li>
+                    </ul>
+                    <a href="#">wesite</a>
                   </p>
                 </div>
               </div>
