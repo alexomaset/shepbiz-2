@@ -4,15 +4,6 @@ import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
 
 
-const client = contentful.createClient({
-  accessToken: '<content_management_api_key>'
-})
-
-client.getSpace('<space_id>')
-.then((space) => space.getEnvironment('<environment_id>'))
-.then((env) => env.getEntries({'metadata.tags.sys.id[all]': 'tagOne,tagTwo'}))
-.then((entries) => console.log(entries))
-.catch(console.error)
 const BlogDetails = () => {
   return (
     <Layout>
@@ -281,7 +272,7 @@ const BlogDetails = () => {
                       className="comments-respond mb-35"
                       id="comment-respond"
                     >
-                      <h4 className="comments-heading">Leave A Message</h4>
+                      {/* <h4 className="comments-heading">Leave A Message</h4>
                       <form
                         onSubmit={(e) => e.preventDefault()}
                         className="comment-form"
@@ -350,7 +341,7 @@ const BlogDetails = () => {
                             </div>
                           </div>
                         </div>
-                      </form>
+                      </form> */}
                     </div>
                   </div>
                 </div>
