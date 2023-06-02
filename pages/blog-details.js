@@ -430,8 +430,6 @@ const BlogDetails = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="widget recent-post-widget mb-40 wow fadeInUp">
-                </div>
                 <div className="widget tag-cloud-widget wow fadeInUp mb-40">
                   <h4 className="widget-title">Popular Tags</h4>
                   <a href="#">Macadamia</a>
