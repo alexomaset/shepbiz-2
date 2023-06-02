@@ -2,6 +2,17 @@
 import Link from "next/link";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
+
+
+const client = contentful.createClient({
+  accessToken: '<content_management_api_key>'
+})
+
+client.getSpace('<space_id>')
+.then((space) => space.getEnvironment('<environment_id>'))
+.then((env) => env.getEntries({'metadata.tags.sys.id[all]': 'tagOne,tagTwo'}))
+.then((entries) => console.log(entries))
+.catch(console.error)
 const BlogDetails = () => {
   return (
     <Layout>
@@ -21,11 +32,9 @@ const BlogDetails = () => {
                   <div className="post-content">
                     <div className="entry-content">
                       <a href="#" className="cat-btn">
-                        Website Launch
+                        Check
                       </a>
                       <h3 className="title">
-                        We are excited to launch our website to showcase our
-                        projects
                       </h3>
                       <div className="post-meta">
                         <ul>
@@ -45,41 +54,7 @@ const BlogDetails = () => {
                       </div>
                     </div>
                     <p>
-                      We are excited to announce the launch of our website,
-                      which will serve as a platform to showcase our
-                      agribusiness and value chain projects across five counties
-                      in Kenya. Our goal is to provide a comprehensive overview
-                      of the work we have been doing to promote sustainable
-                      agriculture and improve the livelihoods of small-scale
-                      farmers in the region. The website will feature detailed
-                      information about our various projects, including their
-                      objectives, activities, and results. Visitors will be able
-                      to learn about the specific challenges facing farmers in
-                      the counties where we work, as well as the innovative
-                      solutions we have developed to address them. One of the
-                      key focus areas of our work is to strengthen value chains
-                      for small-scale farmers. This involves improving access to
-                      markets, inputs, and financial services, as well as
-                      building the capacity of farmers to produce high-quality
-                      products and negotiate better prices. Through our website,
-                      visitors will be able to learn about the specific
-                      interventions we have made in these areas and the impact
-                      they have had on farmers livelihoods. We also work to
-                      promote sustainable agricultural practices, such as
-                      conservation agriculture and agroforestry. These practices
-                      help to improve soil health, reduce erosion, and increase
-                      crop yields, while also helping to mitigate the effects of
-                      climate change. Through our website, visitors will be able
-                      to learn about the specific techniques we have been
-                      promoting and the results we have achieved. In addition to
-                      showcasing our projects, our website will also feature
-                      resources for farmers, such as training materials and best
-                      practices guides. We will also provide information about
-                      upcoming events and opportunities for collaboration. We
-                      are excited to share our work with a wider audience and to
-                      promote sustainable agribusiness in Kenya. We invite you
-                      to visit our website and learn more about our projects and
-                      how you can get involved.
+                     check
                     </p>
                     {/* <blockquote>
                       <h4>
