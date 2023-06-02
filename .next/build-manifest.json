@@ -39,6 +39,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/blog-standard.js"
+    ],
+    "/post-dets2": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/post-dets2.js"
     ]
   },
   "ampFirstPages": []

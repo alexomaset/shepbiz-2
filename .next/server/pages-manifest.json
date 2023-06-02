@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/blog-standard": "pages/blog-standard.js",
   "/": "pages/index.js",
-  "/blog-details": "pages/blog-details.js"
+  "/blog-standard": "pages/blog-standard.js",
+  "/blog-details": "pages/blog-details.js",
+  "/post-dets2": "pages/post-dets2.js"
 }
