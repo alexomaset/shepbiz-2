@@ -99,7 +99,7 @@ const PortfolioGridIsotope = ({ posts }) => {
               <img src="assets/images/blog/blog-standard-3.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
-                  <Link href="/blog-details">
+                  <Link href="">
                     <a>
                       <i className="far fa-arrow-right" />
                     </a>
@@ -107,7 +107,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                 </div>
                 <div className="hover-content">
                   <h3 className="title">
-                    <Link href="/blog-details">
+                    <Link href="">
                       <a>dfghjk</a>
                     </Link>
                   </h3>
@@ -140,7 +140,7 @@ const PortfolioGridIsotope = ({ posts }) => {
               <img src="assets/images/blog/blog-standard-3.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
-                  <Link href="/blog-details">
+                  <Link href="">
                     <a>
                       <i className="far fa-arrow-right" />
                     </a>
@@ -148,7 +148,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                 </div>
                 <div className="hover-content">
                   <h3 className="title">
-                    <Link href="/blog-details">
+                    <Link href="">
                       <a>dfghjk</a>
                     </Link>
                   </h3>
@@ -181,7 +181,7 @@ const PortfolioGridIsotope = ({ posts }) => {
               <img src="assets/images/blog/blog-standard-3.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
-                  <Link href="/blog-details">
+                  <Link href="">
                     <a>
                       <i className="far fa-arrow-right" />
                     </a>
@@ -189,7 +189,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                 </div>
                 <div className="hover-content">
                   <h3 className="title">
-                    <Link href="/blog-details">
+                    <Link href="">
                       <a>wesite</a>
                     </Link>
                   </h3>
@@ -221,7 +221,7 @@ const PortfolioGridIsotope = ({ posts }) => {
               <img src="assets/images/blog/blog-standard-3.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
-                  <Link href="/blog-details">
+                  <Link href="">
                     <a>
                       <i className="far fa-arrow-right" />
                     </a>
@@ -229,7 +229,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                 </div>
                 <div className="hover-content">
                   <h3 className="title">
-                    <Link href="/portfolio-busia">
+                    <Link href="">
                       <a>Busia County News</a>
                     </Link>
                   </h3>
@@ -261,7 +261,7 @@ const PortfolioGridIsotope = ({ posts }) => {
               <img src="assets/images/blog/blog-standard-3.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
-                  <Link href="/portfolio-hb">
+                  <Link href="/blog-details">
                     <a>
                       <i className="far fa-arrow-right" />
                     </a>

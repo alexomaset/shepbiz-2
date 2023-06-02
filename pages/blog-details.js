@@ -40,12 +40,6 @@ const BlogDetails = () => {
                         <ul>
                           <li>
                             <span>
-                              <i className="far fa-calendar-alt" />
-                              <a href="#">28 February 2022</a>
-                            </span>
-                          </li>
-                          <li>
-                            <span>
                               <i className="far fa-comments" />
                               <a href="#">Comment (0)</a>
                             </span>
