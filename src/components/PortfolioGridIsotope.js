@@ -120,7 +120,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                         </span>
                       </li>
                     </ul>
-                    <a href="#">Avocado Value Chain Promotion</a>,
+                    <a href="/post-dets4">Avocado Value Chain Promotion</a>,
                     <a href="#"></a>
                   </p>
                 </div>
@@ -155,7 +155,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                         </span>
                       </li>
                     </ul>
-                    <a href="#">Groundnuts Value Chain Promotion</a>,
+                    <a href="/post-dets1">Groundnuts Value Chain Promotion</a>,
                     <a href="#"></a>
                   </p>
                 </div>
@@ -190,7 +190,7 @@ const PortfolioGridIsotope = ({ posts }) => {
                         </span>
                       </li>
                     </ul>
-                    <a href="#">Macademia Value Chain Promotion</a>
+                    <a href="/post-dets2">Macademia Value Chain Promotion</a>
                   </p>
                 </div>
               </div>
