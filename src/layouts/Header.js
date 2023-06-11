@@ -679,17 +679,9 @@ const Menu = () => (
       <li>
         <Link href="contact">Contact Us</Link>
       </li>
-      <li className="menu-item has-children">
-        <a href="blog-standard">Blog</a>
-        <ul className="sub-menu">
-          <li>
+      <li>
             <Link href="blog-standard">Blogs</Link>
-          </li>
-        </ul>
       </li>
     </ul>
-    {/* <li className="menu-item has-children">
-      <Link href="/login">Home</Link>
-    </li> */}
   </nav>
 );

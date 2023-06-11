@@ -1,11 +1,19 @@
-import { Pool } from 'pg';
+import { createClient } from 'contentful';
 
-const pool = new Pool({
-  user: process.env.PG_USER,
-  password: process.env.PG_PASSWORD,
-  host: process.env.PG_HOST,
-  port: process.env.PG_PORT,
-  database: process.env.PG_DATABASE,
+const client = createClient({
+  space: process.env.CONTENTFUL_SPACE_ID,
+  environment: process.env.ENVIRONMENT,
+  accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
 });
 
-export default pool;
+async function fetchTags() {
+  try {
+    const response = await client.getEntries({'metadata.tags.sys.id[in]': 'riceVc,cashewVc,groudnutsVc,macadamiaVc,avocado_vc'});
+    return response.items;
+  } catch (error) {
+    console.error(error);
+    return null;
+  }
+}
+
+export default fetchTags;

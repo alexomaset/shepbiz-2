@@ -2,9 +2,26 @@
 import Link from "next/link";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layouts/Layout";
+import fetchTags from "db";
+import { createClient } from "contentful";
 
 
-const BlogDetails = () => {
+export async function getStaticProps() {
+
+  const tags = await fetchTags();
+
+  return {
+    props: {
+      tags
+    }
+  };
+}
+
+
+
+const BlogDetails = ({ tags }) => {
+  console.log(tags);
+
   return (
     <Layout>
       <PageBanner pageName={"Blog Details"} />
